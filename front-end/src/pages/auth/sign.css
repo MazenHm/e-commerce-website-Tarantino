@@ -1,0 +1,121 @@
+.title{
+    margin-top:35px;
+    color: #000000;
+    font-family: 'Moderat',sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    /* letter-spacing: .1rem; */
+    line-height: 1.7rem;
+    text-transform: uppercase;
+}
+
+form legend {
+    margin-bottom: 8px;
+}
+
+.card-body{
+    padding: 1rem 2.5rem;
+    background-color: #f7f7f7;
+}
+
+.legend span{
+    margin-top:35px;
+    color: #000000;
+    font-family: 'Moderat',sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    /* letter-spacing: .1rem; */
+    line-height: 1.7rem;
+    text-transform: uppercase;
+}
+.ant-form label {
+    font-size: 12px !important;
+}
+.card-body label {
+    font-family: 'Moderat',sans-serif;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-transform: none;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    color: #898989;
+}
+
+.card-body input{
+    border-radius: 0;
+    outline: none;
+    
+
+}
+
+.ant-input:hover{
+    box-shadow: none !important;
+    border: 1px solid #ced4da !important;
+    outline: none !important;
+}
+
+
+div .ant-input:focus,
+.card-body input:focus{
+    box-shadow: none !important;
+    border: 1px solid black ;
+    outline: none !important;
+    
+}
+
+
+
+.form-control-lg{
+    min-height: inherit !important;
+    height:45px;
+}
+.form-check-input[type=checkbox] {
+    border-radius: 0;
+}
+.ant-input-affix-wrapper,
+.ant-input{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 0 !important;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height:45px;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.ant-input-affix-wrapper .ant-input{
+    all: unset !important;
+    width: 100% !important;;
+
+}
+.ant-input-affix-wrapper.ant-input:focus,
+.ant-input-affix-wrapper .ant-input:hover{
+    box-shadow: none !important;
+    border: none !important;
+    outline: none !important;
+}
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover{
+    box-shadow: none !important;
+    border-color: #ced4da ;
+    outline: none !important;  
+}
+
+
+
+.ant-input-affix-wrapper-focused{
+    box-shadow: none !important;
+    border: 1px solid black !important;
+    outline: none !important;  
+}

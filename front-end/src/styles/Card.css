@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=Work+Sans:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+.card {
+  border-radius: 0%;
+  border-style: none;
+}
+.card-body .card-title {
+  text-transform: capitalize;
+  color: #7f7f7f;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 2px;
+  min-height: 12px;
+  font-style: none;
+}
+
+.card-text a {
+  font-size: 0.9rem;
+  font-weight: 400;
+  min-height: 12px;
+  color: black;
+  font-style: none;
+}
+
+.card-text p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  min-height: 12px;
+  color: black;
+  font-style: none;
+}
+
+.category-figure {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.category-figure p {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.highlight {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.highlight img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  border-radius: 0;
+}
+
+.highlight h1 {
+  text-align: center;
+  color: #000;
+  font-size: 20px;
+  /* line-height: 1.618rem;
+    padding: 0 15px; */
+  font-weight: 560;
+}
+
+.highlight p {
+  text-align: center;
+  word-wrap: break-word;
+  font-size: 17px;
+}
+
+.checkout {
+  background-color: #f6f6f6;
+  width: 100%;
+}
+.ant-form-item {
+  margin-bottom: 15px !important;
+}
+
+.input-form {
+  height: 55px !important;
+  width: 85%;
+  border: none;
+  padding: 0;
+  padding: 16px;
+  font-weight: 400;
+  color: #000;
+  border: 1px solid #d7d9dd;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.input-formm {
+  height: 100%;
+  width: 40%;
+  border: none;
+  padding: 0;
+  padding: 16px;
+  font-weight: 400;
+  color: #000;
+  border: 1px solid #d7d9dd;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.check-btn {
+  border-radius: 0;
+  background: black;
+  font-weight: 700;
+  width: 50%;
+  color: white;
+  padding: 15px 30px;
+}
+
+.header-cart {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f7f7f7;
+  top: 0;
+  padding: 0 !important;
+}
+
+.ant-drawer-body {
+  padding: 0px !important;
+}
+
+.header-cart h3 {
+  margin-top: 12px;
+  color: #000;
+  font-family: poppins;
+  font-weight: 500;
+  line-height: 1.7rem;
+  letter-spacing: 0;
+  text-transform: none;
+  font-size: 1rem;
+}
+
+.cart-contaier {
+  position: relative;
+  margin: 0 0 8px;
+  padding: 16px 16px;
+}
+
+.cart-contaier img {
+  border: 1px solid #efecf0;
+  height: auto !important;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.c1 {
+  margin-left: 15px;
+}
+
+.mini-cart-bag {
+  padding-right: 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.close {
+  padding-left: 15px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.cart-contaier img {
+  width: 80px;
+  height: 113px;
+  border: 1px solid #efecf0;
+  height: auto !important;
+  max-height: 100%;
+  max-width: 100%;
+}
+.lnr-trash {
+  font-size: 20px;
+}
+
+.minicart-price {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.cart-contaier {
+  background-color: white;
+}
+
+.ant-drawer-body {
+  overflow: hidden;
+  background-color: #f2f4f5;
+}
+
+.card-items {
+  max-height: calc(100vh - 15rem);
+  overflow: auto;
+}
+
+.ant-drawer-content-wrapper {
+  min-width: 480px !important;
+}
+
+.card {
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
+.card-img-top {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+  border-radius: 0;
+}
+.card-img-top:hover {
+  transform: scale(1.03);
+}
+
+.card > svg {
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 12px;
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.heart-img:hover {
+  opacity: 100%;
+}
+
+.cart-contaierr {
+  position: absolute;
+  bottom: 0;
+  margin: 0 0 8px;
+  padding: 16px 16px;
+  background-color: white;
+  width: 100%;
+}

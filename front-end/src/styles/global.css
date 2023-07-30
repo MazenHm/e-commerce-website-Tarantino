@@ -1,0 +1,13 @@
+@import "antd/dist/antd.css";
+@import "./layout.css";
+@import "./pages.css";
+@import "./Card.css";
+@import "./swiper.css";
+
+.container-view {
+  padding: 1rem 3rem;
+}
+
+.cursor {
+  cursor: pointer;
+}
